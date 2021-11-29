@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon2.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- Inicio de Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo2.png" width="250px" alt="logoAzul"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Fín del Navbar  -->
+
+      <!-- Slider  -->
+
+      <section class="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-controls"> 
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-image:url('img/uno.jpg')"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-image:url('img/dos.jpg')"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-image:url('img/tres.jpg')"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" style="background-image:url('img/tres.jpg')"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5" style="background-image:url('img/tres.jpg')"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6" style="background-image:url('img/tres.jpg')"></button> -->
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <img src="img/arrow-left-svgrepo-com.svg" alt="Prev">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <img src="img/arrow-right-svgrepo-com.svg" alt="Next">
+                
+            </button>
+        </div>  
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image:url('img/uno.jpg')">
+                <div class="container">
+                    <h2>Algún deseo?</h2>
+                    <p>Enfrentar cualquier reto!</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url('img/dos.jpg')">
+                <div class="container">
+                    <h2>Algúna Idea?</h2>
+                    <p>Innovar!</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url('img/tres.jpg')">
+                <div class="container">
+                    <h2>Que te gustaría?</h2>
+                    <p>Programar!</p>
+                </div>
+              </div>
+              <!-- <div class="carousel-item" style="background-image:url('#')">
+                <div class="container">
+                    <h2>ejemplo1</h2>
+                    <p>Web Developer</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url('#')">
+                <div class="container">
+                    <h2>ejemplo2</h2>
+                    <p>Web Developer</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url('#')">
+                <div class="container">
+                    <h2>ejemplo3</h2>
+                    <p>Web Developer</p>
+                </div> -->
+              </div>              
+            </div>            
+          </div>
+    </section>
+    <!-- Fín del Slider  -->
+
+    
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
